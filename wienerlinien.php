@@ -75,9 +75,9 @@ if (array_key_exists("trafficInfos", $data_Stoerungen['data'])) {
     echo '<p>keine Störungen vorhanden</p>';
 }
 
+# eine Abfrage der nächsten Abfahrtszeit von einem Bahngleis einer Station (z.B. U6 Perfektastraße nach Floridsdorf)
 
-# eine Abfrage der Abfahrtszeit
-/*
+/*   <--- ABFRAGE NUTZEN? ... diese Zeile hier löschen
 echo '<div class="abfahrtszeit"><i>U6 Perfektastraße nach Floridsdorf,</i><br>';
 
 $data_abfahrtszeit = file_get_contents("http://www.wienerlinien.at/ogd_realtime/monitor?rbl=4636");
@@ -101,7 +101,7 @@ if (array_key_exists("vehicle",$data_abfahrtszeit["data"]["monitors"][0]["lines"
 }
 
 echo '</div>';
-*/
+ABFRAGE NUTZEN? ... diese Zeile hier löschen ---> */
 
 ?>
 </body>
