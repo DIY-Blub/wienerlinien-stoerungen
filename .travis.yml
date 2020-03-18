@@ -6,6 +6,6 @@ php:
   - '7.3'
   - '7.4'
 
-install: composer install
+install: composer
 
 script: ./vendor/bin/phpunit
