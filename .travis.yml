@@ -6,4 +6,4 @@ php:
   - '7.3'
   - '7.4'
 
-script: phpunit wienerlinien.php
+script: php wienerlinien.php
